@@ -23,7 +23,7 @@ function Get-Sentiment {
     $ApiPath = '/text/analytics/{0}/{1}'
 
     $Headers = @{
-        'Ocp-Apim-Subscription-Key' = $Key
+        'Ocp-Apim-Subscription-Key' = $ApiKey
     }
 
     $Body = @{
