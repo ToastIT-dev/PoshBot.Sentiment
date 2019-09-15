@@ -1,3 +1,5 @@
+Set-StrictMode -Off
+
 if (Get-Module -Name 'PoshBot.Sentiment') {
     Remove-Module -Name 'PoshBot.Sentiment'
 }
