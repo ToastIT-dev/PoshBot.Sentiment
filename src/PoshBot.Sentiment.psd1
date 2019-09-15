@@ -13,8 +13,10 @@
     AliasesToExport   = @()
     PrivateData       = @{
         Permissions = @(
-            Name        = 'api-use'
-            Description = 'Run commands that require use of APIs protected by keys'
+            @{
+                Name        = 'api-use'
+                Description = 'Run commands that require use of APIs protected by keys'
+            }
         )
         PSData = @{
             Tags         = @('TextAnalysis', 'PoshBot', 'ChatOps')
