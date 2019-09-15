@@ -71,5 +71,5 @@ if($Analyze.IsPresent) {
         Install-Module -Name PSScriptAnalyzer -Scope CurrentUser -Force
     }
 
-    Invoke-ScriptAnalyzer -Path "$BasePath" -Recurse -EnableExit -ExcludeRule 'PSMissingModuleManifestField'
+    Invoke-ScriptAnalyzer -Path "$BasePath" -Recurse -EnableExit
 }
